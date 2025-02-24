@@ -151,4 +151,71 @@
         ],
         "moreInfoLink": "Spies.html"
     }
+    {
+        "id": "cookie",
+        "section": "Cookies",
+        "name": "Chocolate Chip",
+        "image": "images/massimo-adami-OtyGZwflKd8-unsplash.jpg",
+        "description": "Freshly baked chocolate chip cookies every time!",
+        "options": [
+            {
+                "size": "1 Dozen",
+                "price": "$8"
+            },
+            {
+                "size": "1/2 Dozen",
+                "price": "$4"
+            },
+            {
+                "size": "4 Ct.",
+                "price": "$3"
+            }
+        ],
+        "moreInfoLink": "CCC.html"
+    },
+    {
+        "id": "cookie",
+        "section": "Cookies",
+        "name": "Peanut Butter Blossoms",
+        "image": "images/PeanutButterBlossoms.jpg",
+        "description": "Peanut butter blossoms with a sweet, chocolate center.",
+        "options": [
+            {
+                "size": "1 Dozen",
+                "price": "$8"
+            },
+            {
+                "size": "1/2 Dozen",
+                "price": "$4"
+            },
+            {
+                "size": "4 Ct.",
+                "price": "$3"
+            }
+        ],
+        "moreInfoLink": "PBB.html"
+    },
+    {
+        "id": "cookie",
+        "section": "Cookies",
+        "name": "Oatmeal Scotchies",
+        "image": "images/OatmealScotchies.jpg",
+        "description": "Chewy oatmeal cookies with butterscotch chips.",
+        "options": [
+            {
+                "size": "1 Dozen",
+                "price": "$8"
+            },
+            {
+                "size": "1/2 Dozen",
+                "price": "$4"
+            },
+            {
+                "size": "4 Ct.",
+                "price": "$3"
+            }
+        ],
+        "moreInfoLink": "OS.html"
+    }
+    
 ]
