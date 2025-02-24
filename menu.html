@@ -1,161 +1,105 @@
 <!DOCTYPE HTML>
 <html>
-
 <head>
-    <title>That One Baking Place</title>
-    <link rel="icon" type="images/x-icon" href="images/favicon.png">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <script src="https://kit.fontawesome.com/c7867bb742.js" crossorigin="anonymous"></script>
+  <title>That One Baking Place</title>
+  <link rel="icon" type="images/x-icon" href="images/favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="https://kit.fontawesome.com/c7867bb742.js" crossorigin="anonymous"></script>
 </head>
-
 <body class="landing is-preload">
-    <header id="header">
-        <nav id="nav">
-            <ul>
-                <li>
-                    <a class="icon solid fa-home" href="index.html">Home</a>
-                </li>
-                <li>
-                    <a class="icon solid fa-utensils scrolly" href="#menu">Menu</a>
-                    <ul>
-                        <li>
-                            <a href="menu.html#bread">Bread</a>
-                        </li>
-                        <li>
-                            <a href="menu.html#pie">Pies</a>
-                        </li>
-                        <li>
-                            <a href="menu.html#cookie">Cookies</a>
-                        </li>
-                        <li>
-                            <a href="menu.html#bar">Bars</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="icon solid fa-address-card scrolly" href="about.html">About</a>
-                </li>
-                <li>
-                    <a class="icon solid fa-envelope" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <section id="menu" class="wrapper style1">
-        <div class="container">
-            <header class="major">
-                <h3>Notice: Due to rising operational costs some of our products have increased in price  <br> Please make orders at least a week in advance to allow allow adequate time for completion</h3>
-                <section id="bread">
-                </section>
-            </header>
-            <header class="major">
-                <h2>Our Menu</h2>
-                <section id="bread">
-                </section>
-            </header>
+  <header id="header">
+    <nav id="nav">
+      <ul>
+        <li><a class="icon solid fa-home" href="index.html">Home</a></li>
+        <li>
+          <a class="icon solid fa-utensils scrolly" href="#menu">Menu</a>
+          <ul>
+            <li><a href="menu.html#bread">Bread</a></li>
+            <li><a href="menu.html#pie">Pies</a></li>
+            <li><a href="menu.html#cookie">Cookies</a></li>
+            <li><a href="menu.html#bar">Bars</a></li>
+          </ul>
+        </li>
+        <li><a class="icon solid fa-address-card scrolly" href="about.html">About</a></li>
+        <li><a class="icon solid fa-envelope" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="menu" class="wrapper style1">
+    <div class="container">
+      <header class="major">
+        <h3>
+          Notice: Due to rising operational costs some of our products have increased in price<br>
+          Please make orders at least a week in advance to allow adequate time for completion
+        </h3>
+      </header>
+      <header class="major">
+        <h2>Our Menu</h2>
+      </header>
 
-            <header class="major">
+      <!-- Breads Section -->
+      <header class="major">
+        <h2>Breads</h2>
+        <h3>The fresh bread you didn't know you needed!</h3>
+      </header>
+      <div class="row" id="breads-row" style="display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto;">
+        <!-- Bread items injected here -->
+      </div>
 
-                <h2>Breads</h2>
-                <h3>The fresh bread you didn't know you needed!</h3>
+      <!-- Pies Section -->
+      <section id="pie"></section>
+      <header class="major">
+        <h2>Pies</h2>
+        <h3>Flaky crusts, tons of flavors, tons of YUM!</h3>
+      </header>
+      <div class="row" id="pies-row" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto;">
+        <!-- Pie items injected here -->
+      </div>
 
-            </header>
+      <!-- Cookies Section -->
+      <section id="cookie"></section>
+      <header class="major">
+        <h2>Cookies</h2>
+        <h3>Freshly baked, homemade cookies - every time!</h3>
+      </header>
+      <div class="row" id="cookies-row" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto;">
+        <!-- Cookie items injected here -->
+      </div>
 
-            <div class="row">
-                <div style="display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto;">
-                    
-                </div>
-            </div>
-            <section id="pie">
-            </section>
-            <header class="major">
+      <!-- Bars Section -->
+      <section id="bar"></section>
+      <header class="major">
+        <h2>Bars</h2>
+        <h3>Sweet treats the whole family can enjoy! Perfect for every occasion!</h3>
+      </header>
+      <div class="row" id="bars-row" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto;">
+        <!-- Bar items injected here -->
+      </div>
+    </div>
+  </section>
 
-                <h2>Pies</h2>
-                <h3>Flaky crusts, tons of flavors, tons of YUM!</h3>
+  <footer id="footer">
+    <ul class="icons">
+      <li><a href="tel:+319-610-8203" class="icon solid fa-phone"><span class="label">Phone</span></a></li>
+      <li><a href="https://www.facebook.com/people/That-One-Baking-Place/61560185092576/?sk=about" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+      <li><a href="contact.html" class="icon solid fa-envelope"><span class="label">Contact</span></a></li>
+      <li><a href="https://www.google.com/maps/search/platteville+farmers+market/" class="icon solid fa-location-dot"><span class="label">Locate</span></a></li>
+    </ul>
+    <span class="copyright">&copy; That One Baking Place</span>
+  </footer>
 
-            </header>
-
-            <br>
-            <div class="row">
-                <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto;">
-                    
-                </div>
-                <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto;">
-
-                </div>
-            </div>
-
-
-
-
-            <section id="cookie">
-            </section>
-            <header class="major">
-
-                <h2>Cookies</h2>
-                <h3>Freshly baked, homemade cookies - every time!</h3>
-
-            </header>
-
-            <br>
-            <div class="row">
-                <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto;">
-                    
-                </div>
-            <section id="bar">
-            </section>
-            <header class="major">
-
-                <h2>Bars</h2>
-                <h3>Sweet treats the whole family can enjoy! Perfect for every occasion!</h3>
-
-            </header>
-
-            <br>
-            <div class="row">
-                <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto;">
-                    
-            </div>
-        </div>
-
-    </section>
-    <footer id="footer">
-        <ul class="icons">
-            <li>
-                <a href="tel:+319-610-8203" class="icon solid fa-phone">
-                    <span class="label">Phone</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/people/That-One-Baking-Place/61560185092576/?sk=about" class="icon brands fa-facebook-f">
-                    <span class="label">Facebook</span>
-                </a>
-            </li>
-            <li>
-                <a href="contact.html" class="icon solid fa-envelope">
-                    <span class="label">Contact</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.google.com/maps/search/platteville+farmers+market/@42.7370695,-90.4848131,14z/data=!3m1!4b1?entry=ttu" class="icon solid fa-location-dot">
-                    <span class="label">Locate</span>
-                </a>
-            </li>
-        </ul>
-        <span class="copyright"> &copy; That One Baking Place </span>
-    </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.dropotron.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.slidertron.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.dropotron.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/jquery.slidertron.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/generate.js"></script>
 </body>
-
-
 </html>
