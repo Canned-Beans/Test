@@ -1,51 +1,154 @@
 [
     {
-        "id": 1,
-        "name":" LD01 LOUNGE CHAIR",
-        "price": 200,
-        "image": "image/1.png"
+        "section": "Breads",
+        "id": "rolls",
+        "name": "Refreshing Rolls",
+        "image": "images/rollsmenu.jpg",
+        "description": "The fresh bread you didn't know you needed!",
+        "options": [
+            {
+                "size": "1 Cluster",
+                "price": "$6"
+            },
+            {
+                "size": "1/2 Dozen",
+                "price": "$4"
+            }
+        ],
+        "moreInfoLink": "RR.html"
     },
     {
-        "id": 2,
-        "name":" LD02 LOUNGE CHAIR",
-        "price": 250,
-        "image": "image/2.png"
+        "section": "Breads",
+        "id": "cinnamon_rolls",
+        "name": "Cinnamon Rolls",
+        "image": "images/crollsmenu.jpg",
+        "description": "Cinnamon rolls with a glaze of sweetness.",
+        "options": [
+            {
+                "size": "1 Cluster",
+                "price": "$16"
+            },
+            {
+                "size": "3 Ct.",
+                "price": "$10"
+            },
+            {
+                "size": "1 Ct.",
+                "price": "$4"
+            }
+        ],
+        "glazeOptions": [
+            "Yes",
+            "No"
+        ],
+        "moreInfoLink": "CR.html"
     },
     {
-        "id": 3,
-        "name":" LD03 LOUNGE CHAIR",
-        "price": 290,
-        "image": "image/3.png"
-    },
-    {
-        "id": 4,
-        "name":" LD04 LOUNGE CHAIR",
-        "price": 200,
-        "image": "image/4.png"
-    },
-    {
-        "id": 5,
-        "name":" LD05 LOUNGE CHAIR",
-        "price": 300,
-        "image": "image/5.png"
-    },
-    {
-        "id": 6,
-        "name":" LD06 LOUNGE CHAIR",
-        "price": 200,
-        "image": "image/6.png"
-    },
-    {
-        "id": 7,
-        "name":" LD07 LOUNGE CHAIR",
-        "price": 200,
-        "image": "image/7.png"
-    },
-    {
-        "id": 8,
-        "name":" LD08 LOUNGE CHAIR",
-        "price": 200,
-        "image": "image/8.png"
+        "section": "Breads",
+        "id": "white_bread",
+        "name": "White Bread",
+        "image": "images/breadhome.jpg",
+        "description": "Soft, fresh, and perfect for any occasion.",
+        "options": [
+            {
+                "size": "1 Loaf",
+                "price": "$3"
+            },
+            {
+                "size": "2 Loaves",
+                "price": "$6"
+            }
+        ],
+        "moreInfoLink": "WB.html"
     }
-
+    {
+        "section": "Pies",
+        "id": "apple_pie",
+        "name": "Apple Pie",
+        "image": "images/ApplePie.jpg",
+        "description": "Flaky crust, sweet filling!",
+        "options": [
+            {
+                "size": "9 in.",
+                "price": "$15"
+            },
+            {
+                "size": "6 in.",
+                "price": "$8"
+            }
+        ],
+        "moreInfoLink": "Apies.html"
+    },
+    {
+        "section": "Pies",
+        "id": "peach_pie",
+        "name": "Peach Pie",
+        "image": "images/PeachPie.jpg",
+        "description": "Delicious peach pie with a buttery crust.",
+        "options": [
+            {
+                "size": "9 in.",
+                "price": "$15"
+            },
+            {
+                "size": "6 in.",
+                "price": "$8"
+            }
+        ],
+        "moreInfoLink": "Ppies.html"
+    },
+    {
+        "section": "Pies",
+        "id": "cherry_pie",
+        "name": "Cherry Pie",
+        "image": "images/CherryPie.jpg",
+        "description": "Fresh cherries in a golden, flaky crust.",
+        "options": [
+            {
+                "size": "9 in.",
+                "price": "$15"
+            },
+            {
+                "size": "6 in.",
+                "price": "$8"
+            }
+        ],
+        "moreInfoLink": "Cpies.html"
+    },
+    {
+        "section": "Pies",
+        "id": "blueberry_pie",
+        "name": "Blueberry Pie",
+        "image": "images/BlueberryPie.jpg",
+        "description": "A sweet treat made from fresh blueberries.",
+        "options": [
+            {
+                "size": "9 in.",
+                "price": "$15"
+            },
+            {
+                "size": "6 in.",
+                "price": "$8"
+            }
+        ],
+        "moreInfoLink": "Bpies.html"
+    },
+    {
+        "section": "Pies",
+        "id": "strawberry_pie",
+        "name": "Strawberry Pie",
+        "image": "images/strawing.jpeg",
+        "description": "Fresh strawberries in a crisp pie shell.",
+        "options": [
+            {
+                "size": "9 in.",
+                "price": "$15"
+            },
+            {
+                "size": "6 in.",
+                "price": "$8"
+            }
+        ],
+        "moreInfoLink": "Spies.html"
+    }
 ]
