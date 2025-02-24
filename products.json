@@ -217,5 +217,74 @@
         ],
         "moreInfoLink": "OS.html"
     }
-    
+    {
+        "id": "peanut_butter_swirl_bars",
+        "section": "Bars",
+        "name": "Peanut Butter Swirl Bars",
+        "image": "images/SwirlBars.jpg",
+        "description": "Sweet peanut butter bars with a swirl of deliciousness.",
+        "options": [
+            {
+                "size": "6 Ct.",
+                "price": "$6"
+            },
+            {
+                "size": "4 Ct.",
+                "price": "$5"
+            },
+            {
+                "size": "2 Ct.",
+                "price": "$3"
+            }
+        ],
+        "moreInfoLink": "PBS.html"
+    },
+    {
+        "id": "blondies",
+        "section": "Bars",
+        "name": "Blondies",
+        "image": "images/Blondies.jpg",
+        "description": "Buttery, sweet blondies with a rich flavor.",
+        "options": [
+            {
+                "size": "6 Ct.",
+                "price": "$6"
+            },
+            {
+                "size": "4 Ct.",
+                "price": "$5"
+            },
+            {
+                "size": "2 Ct.",
+                "price": "$3"
+            }
+        ],
+        "moreInfoLink": "Bl.html"
+    },
+    {
+        "id": "brownies",
+        "section": "Bars",
+        "name": "Brownies",
+        "image": "images/Brownies.jpg",
+        "description": "Classic fudgy brownies with a rich, chocolatey taste.",
+        "options": [
+            {
+                "size": "6 Ct.",
+                "price": "$6"
+            },
+            {
+                "size": "4 Ct.",
+                "price": "$5"
+            },
+            {
+                "size": "2 Ct.",
+                "price": "$3"
+            }
+        ],
+        "frostingOptions": [
+            "Yes Frosting",
+            "No Frosting"
+        ],
+        "moreInfoLink": "B.html"
+    }
 ]
